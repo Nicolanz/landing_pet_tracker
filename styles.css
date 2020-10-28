@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@font-face{
+    font-family: league;
+    src: url(fonts/leagueSpartan.otf);
+}
+
+body{
+    padding:0;
+    margin:0;
+    height:100vh;
+    /* background: #53895B;
+    background: -webkit-linear-gradient(59deg, #1E7272, #53895B);
+    background: linear-gradient(59deg, #1E7272, #53895B);  */
+}
+nav{
+    top:0;
+    z-index:3;
+    background: #53895B;
+    border-bottom: 2px solid white;
+    background: -webkit-linear-gradient(59deg, #1E7272, #53895B);
+    background: linear-gradient(59deg, #1E7272, #53895B); 
+}
+
+nav .logo{
+    color: white;
+}
+
+.content{
+    margin-top: 70px;
+}
+.imgIntro{
+    width: 90%;
+    height: 80%;
+}
+.back{
+    z-index: -1;
+    width: 250px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 49%;
+}
+h1, h2{
+    font-family: league;
+}
+.content p{
+    font-family: league;
+}
+p{
+    font-family: 'Quicksand';
+}
+#intro{
+    height: 580px;
+    z-index:1;
+}
+
+
+#features{
+    height: 580px;
+    background: #53895B;
+    background: -webkit-linear-gradient(59deg, #1E7272, #53895B);
+    background: linear-gradient(59deg, #1E7272, #53895B);
+    z-index:1;
+    /* border: 2px solid black; */
+}
+
+#team{
+    height: 300px;
+    background: #171d1c41; 
+    
+}
+#about{
+    height: 580px;
+}
+/* #aboutTitle{
+    border-right:1px solid grey;
+} */

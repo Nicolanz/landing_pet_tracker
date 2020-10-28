@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICON -->
+    <link rel="icon" href="images/logoIcon.png?{{ cache_id }}" />
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- MAIN CONTAINER -->
+    <div class="contenedor">
+        <!-- INTRO SECTION -->
+        <nav class="shadow-lg navbar navbar-expand-lg navbar-light w-100 position-fixed">
+            <a class="navbar-brand text-light logo" href="#">Pet Tracker</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#intro">Intro </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#team">Team Members</a>
+                    </li>
+                </ul>
+                <a target="_blank" href="http://34.75.204.221/">
+                <button class="btn btn-light">Start</button>
+                </a>
+            </div>
+        </nav>
+        <div id="intro" class="content col-12 d-flex flex-nowrap">
+            <div class="back position-absolute">
+                <img src="images/huellas1.jpg" class="img-fluid">
+            </div>
+            <div class="col-7 d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-1" >
+                    PET TRACKER
+                </h1>
+                <p>
+                    Web application for tracking the real time location of your pet
+                </p>
+                <a class="col-3" target="_blank" href="http://34.75.204.221/">
+                    <button class="btn btn-success w-100 h-20">Start</button>
+                </a>
+            </div>
+            <div class="col-5 d-flex align-items-center justify-content-end">
+                <img src="images/dogIntro.png" class="imgIntro" alt="">
+            </div>
+        </div>
+        <div id="features" class="d-flex flex-row flex-wrap">
+            <h1 class="text-light ml-5 mt-5 display-4">Features</h1>
+            <div class="col-12 d-flex flex-row justify-content-around">
+                <div class="feature_box col-4 d-flex flex-column">
+                    <h2 class="text-light">Sign Up:</h2>
+                    <p class="text-light">Create an account and set it up to manage and locate your pets.</p>
+                    <div>
+                        <img class="img-fluid" src="images/auth.png" alt="">
+                    </div>
+                </div>
+                <div class="feature_box col-4 d-flex flex-column">
+                    <h2 class="text-light">Create your pets:</h2>
+                    <p class="text-light">Save your pet's information: birthaday, hair color, race, etc .</p>
+                    <div>
+                        <img class="img-fluid" src="images/profile.png" alt="">
+                    </div>
+                </div>
+                <div class="feature_box col-4 d-flex flex-column">
+                    <h2 class="text-light">Real-time location:</h2>
+                    <p class="text-light">Locate your pet in the map at any time just pressing a button.</p>
+                    <div>
+                        <img class="img-fluid" src="images/map_loaction.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="about" class=" col-12 d-flex flex-row align-items-center justify-content-around">
+            <div id="aboutTitle" class="col-3 ">
+                <h1 class="mt-3">About</h1>
+            </div>
+            <div class=" d-flex flex-column col-5">
+                <h2>
+                    Why we did it?
+                </h2>
+                <p class="">
+                    For some people, pets are currently one important aspect of their life. As pets continue becoming more and more popular,
+                    more humans want to have pets. However, having a risk of losing them supposes a problem for the owners.
+                </p>
+            </div>
+            <div class="col-4">
+                <img src="images/cat.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <div id="team" class="d-flex align-items-center justify-content-center border">
+            <div>
+                <h2 class=" display-4 ml-5 mt-3">Cobra Team</h2>
+                <ul>
+                    <li>Bryan Builes - <a href="">Github</a>,
+                    <a href="">linkedin</a>,
+                    <a href="">Twitter</a>
+                    </li>
+                    <li>Erika Osorío Guerrero - <a href="">Github</a>,
+                        <a href="">linkedin</a>,
+                        <a href="">Twitter</a>
+                    </li>
+                    <li>Juan David Olivares - <a href="">Github</a>,
+                        <a href="">linkedin</a>,
+                        <a href="">Twitter</a>
+                    </li>
+                    <li>Nicolás Andrés Zárate - <a href="">Github</a>,
+                        <a href="">linkedin</a>,
+                        <a href="">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div></div>
+        </div>
+    </div>
+
+        
+    <!-- BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

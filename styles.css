@@ -15,10 +15,9 @@ body{
 nav{
     top:0;
     z-index:3;
-    background: #53895B;
+    height: 80px;
+    background: linear-gradient(59deg, #00171F, #007EA7 );
     border-bottom: 2px solid white;
-    background: -webkit-linear-gradient(59deg, #1E7272, #53895B);
-    background: linear-gradient(59deg, #1E7272, #53895B); 
 }
 
 nav .logo{
@@ -56,21 +55,42 @@ p{
 
 #features{
     height: 580px;
-    background: #53895B;
-    background: -webkit-linear-gradient(59deg, #1E7272, #53895B);
-    background: linear-gradient(59deg, #1E7272, #53895B);
+    background: linear-gradient(59deg, #00171F, #007EA7 );
     z-index:1;
     /* border: 2px solid black; */
+}
+.divImgs{
+    border: 2px solid white;
+    padding:10px;
 }
 
 #team{
     height: 300px;
-    background: #171d1c41; 
+    background: linear-gradient(59deg, #003459, rgb(0, 0, 0) );
     
 }
 #about{
     height: 580px;
 }
+.cat{
+    max-height:580px;
+    width:auto;
+}
 /* #aboutTitle{
     border-right:1px solid grey;
 } */
+
+.firstBtn{
+    width: 180px;
+}
+
+svg{
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes example{
+    from {margin-left: 0px;}
+    to {margin-left:5px}
+}
